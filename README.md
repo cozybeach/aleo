@@ -17,8 +17,32 @@
 ## How to Run Aleo Client and Prover Node
 
 ###### **INSTALL**
-install the Aleo Client & Prover Node automatically (Aleo Prover node will automatically running after the installation).
+install the Aleo Client & Prover Node automatically (Aleo Client & Prover node will automatically running after the installation).
 
 ```
 wget -q -O aleo_snarkos3.sh https://api.nodes.guru/aleo_snarkos3.sh && chmod +x aleo_snarkos3.sh && sudo /bin/bash aleo_snarkos3.sh
+```
+
+Check your Aleo account (don’t forget to save the details in the safe place!)
+
+```
+cat $HOME/aleo/account_new.txt
+```
+
+Check what Aleo Private Key is used by your prover (don’t forget to save the details in the safe place!)
+
+```
+grep "prover" /etc/systemd/system/aleo-prover.service | awk '{print $5}'
+```
+
+Check aleo prover logs
+
+```
+journalctl -u aleo-prover -f -o cat
+```
+
+Check the aleo client logs if it is running
+
+```
+journalctl -u aleo-client -f -o cat
 ```
