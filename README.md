@@ -1,3 +1,4 @@
-# aleo
-How to setup Aleo Client &amp; Prover Node. Please take a note that it's PoSW, you may need to use dedicated.
+# How To Run Aleo Client & Prover Node
+
+Please take a note that it's PoSW, you may need to use dedicated.
 ![Aleo Testnet Phase 3](https://mirror-media.imgix.net/publication-images/6e9dAy9AbAdTnge4QijJ1.png?height=806&width=1612&h=806&w=1612&auto=compress)
