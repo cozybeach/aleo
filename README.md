@@ -19,4 +19,6 @@
 ###### **INSTALL**
 install the Aleo Client & Prover Node automatically (Aleo Prover node will automatically running after the installation).
 
-```wget -q -O aleo_snarkos3.sh https://api.nodes.guru/aleo_snarkos3.sh && chmod +x aleo_snarkos3.sh && sudo /bin/bash aleo_snarkos3.sh```
+```
+wget -q -O aleo_snarkos3.sh https://api.nodes.guru/aleo_snarkos3.sh && chmod +x aleo_snarkos3.sh && sudo /bin/bash aleo_snarkos3.sh
+```
