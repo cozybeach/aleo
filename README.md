@@ -47,6 +47,8 @@ journalctl -u aleo-prover -f -o cat
 journalctl -u aleo-client -f -o cat
 ```
 
+
+
 > **If you've completed all of these steps, your prover node is up and running**. And **_you can skip using the USEFUL COMMANDS down below_**. **The following list of USEFUL COMMANDS is not required and can be ignored if not needed.**
 
 ## Stop the aleo prover and start the aleo client
