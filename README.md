@@ -46,3 +46,23 @@ journalctl -u aleo-prover -f -o cat
 ```
 journalctl -u aleo-client -f -o cat
 ```
+
+> **If you've completed all of these steps, your prover node is up and running**. And **_you can skip using the USEFUL COMMANDS down below_**. **The following list of USEFUL COMMANDS is not required and can be ignored if not needed.**
+
+## Stop the aleo prover and start the aleo client
+
+```
+systemctl stop aleo-prover
+systemctl restart aleo-client
+```
+
+## Running the prover
+```
+systemctl stop aleo-client
+systemctl restart aleo-prover
+```
+
+## Remove snarkos and all source files, including aleo miner address
+```
+wget -q -O aleo_remove_snarkos.sh https://api.nodes.guru/aleo_remove_snarkos2.sh && chmod +x aleo_remove_snarkos.sh && sudo /bin/bash aleo_remove_snarkos.sh
+```
