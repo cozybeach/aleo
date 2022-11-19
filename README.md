@@ -1,10 +1,10 @@
-# Aleo Client & Prover Node
+# **ALEO CLIENT & PROVER NODE**
 
 <p align="center">
   <img width="460" height="300" src="https://pbs.twimg.com/media/FhKBJarXoAIaFnA?format=jpg&name=large">
 </p>
 
-## Hardware Specifications
+## **Hardware Specifications**
 
 | Component  | Reommendation |
 | ------------- | ------------- |
@@ -14,7 +14,7 @@
 | Network | 10 Mbps of upload and download bandwidth |
 | Type | **Dedicated Server** |
 
-# How to Run Aleo Client and Prover Node
+# **HOW TO RUN ALEO CLIENT & PROVER NODE**
 
 ## 1. **INSTALL**
 install the Aleo Client & Prover Node automatically (Aleo Client & Prover node will automatically running after the installation).
