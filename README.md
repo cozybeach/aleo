@@ -16,7 +16,7 @@
 
 # **HOW TO RUN ALEO CLIENT & PROVER NODE**
 
-## 1. **INSTALL**
+## **1. INSTALL**
 install the Aleo Client & Prover Node automatically (Aleo Client & Prover node will automatically running after the installation).
 
 ```
